@@ -10,4 +10,17 @@ Since I could not get live video, I have created a video from set of images (Mas
 
 # Output
 
-[![Download to watch full video output]()](Mask_No_Mask_Detection.mp4)
+[![Download to watch full video output](images/mask_modeloutput.png)(images/nomask_modeloutput.png)](Mask_No_Mask_Detection.mp4)
+
+# To use
+Clone the repository using command: git clone https://github.com/PreetiSajjan/Mask_NoMask_Detection.git
+
+The dataset used is included in the repository so need not to be downloaded explicitly.
+
+Run the command python VideoReader.py to run the model.
+
+# Contribution and References
+
+Feel free to contribute to the project.
+
+** Kindly cite if any part of the code is referred. **
