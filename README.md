@@ -10,7 +10,7 @@ Since I could not get live video, I have created a video from set of images (Mas
 
 # Output
 
-[![Download to watch full video output](images/mask_modeloutput.png)(images/nomask_modeloutput.png)](Mask_No_Mask_Detection.mp4)
+[![Download to watch full video output](images/combined.png)](Mask_No_Mask_Detection.mp4)
 
 # To use
 Clone the repository using command: git clone https://github.com/PreetiSajjan/Mask_NoMask_Detection.git
