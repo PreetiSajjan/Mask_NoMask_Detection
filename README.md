@@ -1,6 +1,6 @@
 # Mask_NoMask_Detection : Mask Detection using Keras and Transfer Learning
 
-It is very very for everbody to follow the rules set by the government. One of which is wearing mask in public places. This inspired me to try building a model to detecting mask on the faces and classify accordingly based on whether a person is wearing a mask or not. 
+It is very important for everbody to follow the rules set by the government. One of which is wearing mask in public places. This inspired me to try building a model to detecting mask on the faces and classify accordingly based on whether a person is wearing a mask or not. 
 
 # Logic 
 
