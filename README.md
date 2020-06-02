@@ -1,4 +1,4 @@
-# Mask_NoMask_Detection
+# Mask_NoMask_Detection : Mask Detection using Keras and Transfer Learning
 
 It is very very for everbody to follow the rules set by the government. One of which is wearing mask in public places. This inspired me to try building a model to detecting mask on the faces and classify accordingly based on whether a person is wearing a mask or not. 
 
@@ -10,14 +10,16 @@ Since I could not get live video, I have created a video from set of images (Mas
 
 # Output
 
-[![Download to watch full video output](images/mask_modeloutput.png)(images/nomask_modeloutput.png)](Mask_No_Mask_Detection.mp4)
+[![Download to watch full video output](images/combined.png)](Mask_No_Mask_Detection.mp4)
 
 # To use
 Clone the repository using command: git clone https://github.com/PreetiSajjan/Mask_NoMask_Detection.git
 
 The dataset used is included in the repository so need not to be downloaded explicitly.
 
-Run the command python VideoReader.py to run the model.
+Train the model to detect mask using python train_maskdetector_model.py
+
+To run the test: python test_maskdetection.py
 
 # Contribution and References
 
