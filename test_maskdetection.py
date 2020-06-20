@@ -53,11 +53,6 @@ def show_data(boundings):
         img = cv2.resize(img, (500, 500), interpolation=cv2.INTER_AREA)
         cv2.rectangle(img, (15, 5), (200, 50), (224, 206, 206), cv2.FILLED)
 
-        #cv2.putText(img, "Prediction: " + boundings[index]['pred'],
-        #            (20, 20), cv2.FONT_HERSHEY_SIMPLEX, 0.5, col, 2)
-        #cv2.putText(img, "Actual: " + boundings[index]['actual'],
-        #            (20, 40), cv2.FONT_HERSHEY_SIMPLEX, 0.5, col, 2)
-
         if boundings[index]['actual'] == boundings[index]['pred']:
             if boundings[index]['pred'] == 'No Mask':
                 cv2.putText(img, "Access Denied", (20, 30), cv2.FONT_HERSHEY_SIMPLEX, 0.7, col, 2)
